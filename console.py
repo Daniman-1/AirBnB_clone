@@ -32,7 +32,7 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """Defines the HolbertonBnB command interpreter.
+    """Defines the HBnB command interpreter.
 
     Attributes:
         prompt (str): The command prompt.
@@ -75,7 +75,7 @@ class HBNBCommand(cmd.Cmd):
         return False
 
     def do_quit(self, arg):
-        """Quit command to exit the program."""
+        """Quit command to exit the programs."""
         return True
 
     def do_EOF(self, arg):
