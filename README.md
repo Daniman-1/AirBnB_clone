@@ -37,7 +37,7 @@ Suite CRM terminal python Suite CRM Suite CRM git distributed version control sy
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using programming language Python 3.8.3. The editors used were VIM 8.1.2269, VSCode 1.6.1 and Atom 1.58.0 . Control version using Git 2.25.1.
 0x03 Installation
 
-git clone https://github.com/aysuarex/AirBnB_clone.git
+git clone https://github.com/Daniman-1/AirBnB_clone.git
 
 change to the AirBnb directory and run the command:
 
@@ -201,24 +201,3 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
     update
 
     Updates an instance based on the class name, id, and kwargs passed. Update the file.json
-
-## Authors
-<details>
-    <summary>Godswill Kalu</summary>
-    <summary>TIESSIA BOLA</summary>
-    <ul>
-    <li><a href="https://www.github.com/lordwill">Github</a></li>
-    <li><a href="mailto:messagelordwill@gmail.com">e-mail</a></li>
-    <li><a href="https://www.github.com/Adamsbola">Github</a></li>
-    <li><a href="mailto:adamadu52@gmail.com">e-mail</a></li>
-    </ul>
-</details>
-
-## How to add Author file
-`Bash script for generating the list of authors in git repo`
-
-#!/bin/sh
-
-git shortlog -se
-| perl -spe 's/^\s+\d+\s+//'
-| sed -e '/^CommitSyncScript.*$/d' \
