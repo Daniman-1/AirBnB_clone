@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines unittests for models/city.py.
+"""Defines unittests models/city.py.
 
 Unittest classes:
     TestCity_instantiation
